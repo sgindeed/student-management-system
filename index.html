@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, inital-scale=1.0">
+  <title>University Portal</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="login.html" target="_blank">LOG-IN</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="#">BLOGS</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>WELCOME TO THE UNIVERSITY PORTAL</h1>
+      <p>A user-friendly website made for the ease of students and faculty members</p>
+      <a href="login.html"  target="_blank" class="hero-btn">Sign Up here</a>
+    </div>
+  </section>
+
+
+<section class="course">
+  <h1>FEATURES</h1>
+  <p>Here are some of the most important features of our portal</p>
+  <div class="row">
+    <div class="course-col">
+        <h3>Attendance</h3>
+        <p>The students will be able to view their total attendance. They will also be abel to view the total number of classes of each subject attended and the number of classes which are required to be attended for a safe attendance score (around 75%). The students will also be able to view the important topics taught in a partcular class.</p>     
+    </div>
+    <div class="course-col">
+        <h3>Portfolio</h3>
+        <p>The students will be able to view or upload their portfolios here. The portfolio contains the details of the students. It contains the hobbies of the students, their skills and the companies they are interested to join. The portfolio section also helps the students to create their individual CVs which prove beneficial during the placements.</p>     
+    </div>
+    <div class="course-col">
+        <h3>Emergency</h3>
+        <p>This section contains the emergency contact numbers of the students. For medically unfit students, this section has the emergency numbers of the nearby hospitals and the family doctors.</p>     
+    </div>
+  </div>
+</section>
+
+<section class="campus">
+  <h1>Add Ons</h1>
+  <p>Here are some extra facts</p>
+  <div class="row">
+    <div class="campus-col">
+      <img src="london.png">
+      <div class="layer">
+        <h3>B.Tech/M.Tech</h3>
+      </div>
+      
+    </div>
+     <div class="campus-col">
+      <img src="newyork.png">
+      <div class="layer">
+        <h3>BBA/MBA</h3>
+      </div>
+      
+    </div>
+     <div class="campus-col">
+      <img src="washington.png">
+      <div class="layer">
+        <h3>BCA/MCA</h3>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="facilities">
+  <h1>Communities</h1>
+  <p>Here are some of our Communities</p>
+  <div class="row">
+    <div class="facilities-col">
+      <img src="library.png">
+      <h3>Quiz Club</h3>
+    </div>
+     <div class="facilities-col">
+      <img src="basketball.png">
+      <h3>Sports Club</h3>
+    </div>
+     <div class="facilities-col">
+      <img src="cafeteria.png">
+      <h3>Rotaract Club</h3>
+    </div>
+  </div>
+  </section>
+<section class="footer">
+  <h4>About Us</h4>
+  <p>To assist students to understand and enjoy seamless nature of
+knowledge and encourage them to apply the acquired knowledge to
+practical use, so that they become worthy, socially responsible good
+human beings sought after for their leadership qualities.<br> We always give our best to foster creativity, innovation and excellence through example based teaching-learning process imparted in the most simple and
+easily comprehensible way.<br> We aim to continuously upgrade knowledge base of our manpower, improve
+infrastructure and use of latest technology/pedagogical tools, and
+update curriculum through periodic feedback from stake holders to
+enable students to meet professional requirements and their
+expectations.</p>
+</section>
+
+<script>
+  var navLinks=document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+    function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+</body>
+</html>
